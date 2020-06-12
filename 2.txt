@@ -1,0 +1,59 @@
+急着编码
+设计完了 再去编码（实现）
+
+交付标准， 交付
+
+Android app--接口--
+服务器（获得数据库）
+web接口  本地web服务器，
+发布web服务（函数）
+
+intelli idea  ==java 
+卡死
+同步的   主线程 等着下载文件，实时响应的
+socket--- http--  request
+  response
+必须线程运行 thread.start()  
+  run()   runable
+在主线程里面开了一个子线程
+那么子线程里面能够直接访问主线程的控件么
+EditText
+怎么做。 
+就是  在子线程， 把显示的内容，message，然后用Handler 框架
+
+message.obj=""   object    装箱
+et.setText(message.obj.toString());  拆箱
+
+ [webmethod]  业务不一样
+  public  int add(int x, int y)
+  {
+  return x+y;
+  }
+web接口   web服务器 Tomcat iis
+add
+http://192.168.3.44:8080/add?x=3&y=4
+跨应用的。一个前端 来调用
+
+Bmob 第三方工具， 在他的基础上，可以进行数据结构， 测试用例，做一些接口。
+branch
+  merge
+
+去公司第一周。
+redmine 文档
+任务--测试
+
+第二个 要学会 git 版本控制。
+VCS VERSION CONTROL SYSTEM
+1.0 版本 控制系统
+那么多功能点， 100张表，
+这么多东西， 有序。
+这个人辞职了。断掉了。
+运营   保密。
+ 
+
+
+
+
+
+
+
